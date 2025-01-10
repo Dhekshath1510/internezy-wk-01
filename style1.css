@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .countdown-container {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  #current-date-time {
+    color: #ff6347;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .countdown p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .countdown span {
+    color: #00bfff;
+    font-weight: bold;
+  }
+  

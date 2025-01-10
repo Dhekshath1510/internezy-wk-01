@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body background="age calc.jpg">
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form id="ageForm">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+            
+            <label for="tob">Time of Birth:</label>
+            <input type="time" id="tob" required>
+            
+            <button type="button" id="calculate">Calculate</button>
+        </form>
+        <div id="result">
+            <p id="liveTime"></p>
+            <p id="todayDate"></p>
+            <p id="ageInMinutes"></p>
+            <p id="ageInHours"></p>
+            <p id="ageInDays"></p>
+            <p id="ageInMonths"></p>
+            <p id="ageInYears"></p>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
